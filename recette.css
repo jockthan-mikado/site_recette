@@ -1,0 +1,83 @@
+body{
+    background-color: #8BA1BB;
+    font-family: Arial;
+    margin: 0;
+
+
+}
+.recette{
+    text-align: center;
+}
+.contenu{
+    background-color: white;
+    color: black;
+    margin: 0px 10% 80px 10%;
+    min-width: 350px;
+    padding: 30px;
+}
+h1{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 16px;
+}
+div.separateur{
+    height: 1px;
+    width: 100px;
+    background-color: black;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+p.description{
+    text-align: center;
+    max-width: 400px;
+    display: inline-block;
+    font-size: 14px;
+}
+
+.centre{
+    text-align: center;
+    width: 100%;
+}
+
+div.categorie{
+    margin-bottom: -18px;
+    margin-top: 40px;
+}
+
+p.categorie{
+    text-align: center;
+    background-color: black;
+    display: inline-block;
+    margin-bottom: 0;
+    padding: 8px 18px;
+    font-weight: bold;
+    font-size: 16px;
+    color: white;
+}
+
+div.info{
+    position: relative;
+}
+
+table.info{
+    position: absolute; 
+    bottom:0;
+    width:100%;
+    
+    color:white; 
+    background-color: #6C829DC0;
+}
+
+table.info td{
+    text-align: center;
+    font-size: 14px;
+    vertical-align: top;
+}
+
+table.info th{
+    font-size: 16px;
+    vertical-align: bottom;
+    padding-bottom: 4px;
+}
