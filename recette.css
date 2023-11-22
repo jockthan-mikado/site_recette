@@ -81,3 +81,33 @@ table.info th{
     vertical-align: bottom;
     padding-bottom: 4px;
 }
+
+div.colonne{
+    width: 45%;
+    margin-top: 20px;
+}
+div.colonne h2{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 15px;
+    border-bottom: 5px solid #6C829D;
+    padding-bottom: 5px;
+    /* margin-right: 10%; */
+
+}
+div.colonne1{
+    display: inline-block;
+}
+div.colonne2{
+   float: right; 
+}
+
+div.Ingredients p{
+    border: 1px solid lightgray;
+    text-align: center;
+    font-size: 14px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 4px;
+    margin-top: 1px;
+ }
